@@ -1,0 +1,51 @@
+Overview
+This repository contains the project work completed as part of the Data Visualization internship offered by Infosys SpringBoard. The project focuses on exploration, analysis, and visualization of a dataset related to Indian children's screen time and associated health impacts.
+
+Project Description
+The project analyzes the "Indian Kids Screen Time" dataset which includes various attributes related to children's age, gender, average daily screen time, primary device usage, and observed health impacts linked to screen exposure.
+
+Core activities in the project include:
+Data loading and cleaning
+Exploratory Data Analysis (EDA) with summary statistics
+Generating insightful visualizations such as histograms, KDE plots, boxplots, violin plots, and scatterplots
+Understanding distributions and relationships among features such as screen time, age, gender, device type, and location (urban/rural)
+Interpretations related to recommended screen time limits and educational vs recreational usage ratios
+
+Files Description
+week1.ipynb : Mounting Google Drive to access dataset, reading the dataset, descriptive statistics, and initial visualizations such as histograms and count plots for key variables.
+week2.ipynb : Initial data loading, dataset exploration including data types and summary statistics with Pandas.
+week3.ipynb : Dataframe display with detailed column overview and initial dataset info display to understand data completeness and attributes.
+week4.ipynb : Demonstrates creation of sample synthetic data frame for potential modeling or testing purposes with features like screen time, gender, location, and device type.
+
+Dataset
+The dataset is titled Indian Kids Screen Time and includes the following key columns:
+Age (8 to 18 years)
+Gender (Male/Female)
+Avg_Daily_Screen_Time_hr (average hours per day of screen usage)
+Primary_Device (e.g., Smartphone, Laptop, TV)
+Exceeded_Recommended_Limit (boolean indicating if recommended screen time exceeded)
+Educational_to_Recreational_Ratio (ratio of educational screen time to recreational)
+Health_Impacts (health effects related to screen time such as Poor Sleep, Eye Strain)
+Urban_or_Rural (location category)
+                            
+Tools and Libraries
+Python 3
+Pandas for data manipulation
+NumPy for data generation (synthetic data)
+Matplotlib and Seaborn for visualization
+Google Colab for cloud-based notebook execution and Google Drive integration
+
+How to Use
+Clone the repository locally or open notebooks individually in Google Colab.
+Mount your Google Drive (if needed) for accessing the dataset.
+Run the Jupyter notebooks in sequence to follow the data loading, exploration, and visualization steps.
+Modify or extend visualization code snippets to explore additional insights or apply different datasets.
+
+Insights & Next Steps
+The dataset shows a range of screen times with a skew towards higher usage in some children.
+Health impacts correlated with screen usage have been highlighted and merit further investigation.
+Data contains some missing values which should be handled before advanced modeling.
+Potential extension includes predictive modeling for health impact risk based on screen usage patterns.
+
+Acknowledgments
+This work was completed as part of the Infosys SpringBoard Data Visualization Internship program. All analyses and visualizations are for educational purposes and demonstration of data visualization techniques.
